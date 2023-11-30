@@ -1,0 +1,403 @@
+body{
+    background-color: #f1f3f6;
+}
+ a{
+    color: white;
+ }
+
+section{
+    background-color:  rgba(0, 0, 0, 0.744);
+}
+nav{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+nav ul{
+    
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    margin: 8px;
+    height: 70px;
+}
+
+li .plus{
+    font-size: 13px;
+    font-style: bold;
+    margin-top: -1px;
+}
+
+.plus .ex{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+
+}
+
+nav ul li { font-family: Arial, Helvetica, sans-serif;
+    font-style: bolder;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+li:hover{
+    font-size: 1.05rem;
+    cursor: pointer;
+
+}
+input {
+    
+    height: 30px;
+   color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+.search{
+    width: 350px;
+    padding: 0 16px;
+    border-radius: 10px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    background-color: black;
+    
+}
+.button{
+    width: 150px;
+    color: #2874f0;
+    font-weight: 500;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    font-style: bolder;
+    font-size: 15px;
+}
+
+.button:hover{
+    width: 175px;
+    height: 38px;
+}
+
+.cart{
+    width: 50px;
+
+}
+
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.images .logs:hover{
+    font-size: 1rem;
+    color: #388e3c;
+    cursor: pointer;
+}
+
+
+.logs img{
+    width: 75px;
+}
+.logs{
+
+    font-size: 0.9rem;
+    font-style: bolder;
+    margin-right: 70px;
+}
+
+
+
+.show{
+width: 100%;
+height: 300px;
+}
+
+.slides img{
+    width: 100%;
+    height: 200px;
+}
+.add{
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 320px;
+   justify-content: space-between;
+   margin-top: 30px;
+   padding-top: 10px;
+   text-align: center;
+}
+
+
+.clickbait{
+    width: 200px;
+    margin-left: 50px;
+    
+}
+
+.clickbait input{
+    width: 85px;
+    height: 35px;
+    color: white;
+    background-color: #2874f0;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 45px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.details{
+    align-items: center;
+    align-content: center;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+}
+
+.shop{
+    color: #388e3c;
+    padding-top: 8px;
+    margin-left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.location{
+    opacity: .6;
+    padding-top: 7px;
+    margin-left: 20px;
+}
+
+.ad:hover{
+    cursor: pointer;
+    
+}
+.ih{
+    height: 35px;
+    border: 10px solid white;
+    padding: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.ih img{
+    width: 200px;
+}
+
+.hgjk{
+    margin-top: 200px;
+    padding: 14px 0;
+    background-color: white;
+    
+   
+    
+}
+
+
+p{
+    margin-left: 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #848484;
+}
+
+.Name{ 
+     margin-left: 15px;
+    color: #848484;
+    margin-left: 30px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.founder{ margin-left: 15px;
+    width:100%;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    justify-content: space-around;
+}
+.fgalery{ margin-left: 15px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+    
+}
+.fgalery img{
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.j{
+    background-color: #172337;
+    border-radius: 10px;
+    border: 8px solid black;
+    margin-bottom: 30px;
+}
+.Trailer{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #172337;
+    color: white;
+}
+
+.creator{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+
+
+button{
+    padding: 6px;
+    background-color: #070817;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 240px;
+    height: 70px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.d{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #172337;
+    color: white;
+    height: 300px;
+}
+.fo{
+    margin-top: 45px;
+    margin: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.sec{
+    background-color: #0e1521;
+    color: white;
+    height: 50px;
+    margin-top: -18px;
+}
+.sec ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.sec ul li{
+    margin-top: 10px;
+}
+
+
+.login{
+    background-color: black;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.regi{
+    width: 300px;
+    height: 280px;
+    display: grid;
+    margin-left: 70%;
+    background-color: white;
+    border: solid 3px black ;
+    border-radius: 20px;
+}
+
+.li{
+    width: 200px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.h4{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #2874f0;
+    height: 45px;
+    border-radius: 12px;
+    border: #070817 solid 2px;
+
+}
+
+.lo{
+    height: 40px;
+    color: white;
+    background-color: #2874f0;
+  margin-bottom: -35px;
+    cursor: pointer;
+}
+
+.r{
+    height: 400px;
+   background-color: #6283b8;
+   border-radius: 12px;
+   margin-top: -25px;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.signup{
+    width: 350px;
+    height: 480px;
+    display: grid;
+    margin-left: 3%;
+    margin-top: -300px;
+    background-color: white;
+    border: solid 2px black ;
+    border-radius: 20px;
+}
+.reg{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color: #4685eb;
+    height: 45px;
+    border-radius: 12px;
+    border: #070817 solid 2px;
+
+}
+
+.fg{
+    width: 30%;
+    height: 400px;
+   color: white;
+    margin-top: -100px;
+    border-radius: 12px;
+    margin-right: 10%;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    justify-content: space-around;
+}
